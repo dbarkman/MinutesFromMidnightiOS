@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E46BFFC419DF288400A4E1E0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E46BFFC319DF288400A4E1E0 /* main.m */; };
+		E46BFFC719DF288400A4E1E0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E46BFFC619DF288400A4E1E0 /* AppDelegate.m */; };
+		E46BFFCA19DF288400A4E1E0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E46BFFC919DF288400A4E1E0 /* ViewController.m */; };
+		E46BFFCD19DF288400A4E1E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E46BFFCB19DF288400A4E1E0 /* Main.storyboard */; };
+		E46BFFCF19DF288400A4E1E0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E46BFFCE19DF288400A4E1E0 /* Images.xcassets */; };
+		E46BFFD219DF288400A4E1E0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E46BFFD019DF288400A4E1E0 /* LaunchScreen.xib */; };
+		E46BFFDE19DF288400A4E1E0 /* Minutes_From_MidnightTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E46BFFDD19DF288400A4E1E0 /* Minutes_From_MidnightTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E46BFFD819DF288400A4E1E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E46BFFB619DF288400A4E1E0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E46BFFBD19DF288400A4E1E0;
+			remoteInfo = "Minutes From Midnight";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E46BFFBE19DF288400A4E1E0 /* Minutes From Midnight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Minutes From Midnight.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E46BFFC219DF288400A4E1E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E46BFFC319DF288400A4E1E0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E46BFFC519DF288400A4E1E0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E46BFFC619DF288400A4E1E0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E46BFFC819DF288400A4E1E0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E46BFFC919DF288400A4E1E0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E46BFFCC19DF288400A4E1E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E46BFFCE19DF288400A4E1E0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E46BFFD119DF288400A4E1E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		E46BFFD719DF288400A4E1E0 /* Minutes From MidnightTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Minutes From MidnightTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E46BFFDC19DF288400A4E1E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E46BFFDD19DF288400A4E1E0 /* Minutes_From_MidnightTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Minutes_From_MidnightTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E46BFFBB19DF288400A4E1E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E46BFFD419DF288400A4E1E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E46BFFB519DF288400A4E1E0 = {
+			isa = PBXGroup;
+			children = (
+				E46BFFC019DF288400A4E1E0 /* Minutes From Midnight */,
+				E46BFFDA19DF288400A4E1E0 /* Minutes From MidnightTests */,
+				E46BFFBF19DF288400A4E1E0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E46BFFBF19DF288400A4E1E0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E46BFFBE19DF288400A4E1E0 /* Minutes From Midnight.app */,
+				E46BFFD719DF288400A4E1E0 /* Minutes From MidnightTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E46BFFC019DF288400A4E1E0 /* Minutes From Midnight */ = {
+			isa = PBXGroup;
+			children = (
+				E46BFFC519DF288400A4E1E0 /* AppDelegate.h */,
+				E46BFFC619DF288400A4E1E0 /* AppDelegate.m */,
+				E46BFFC819DF288400A4E1E0 /* ViewController.h */,
+				E46BFFC919DF288400A4E1E0 /* ViewController.m */,
+				E46BFFCB19DF288400A4E1E0 /* Main.storyboard */,
+				E46BFFCE19DF288400A4E1E0 /* Images.xcassets */,
+				E46BFFD019DF288400A4E1E0 /* LaunchScreen.xib */,
+				E46BFFC119DF288400A4E1E0 /* Supporting Files */,
+			);
+			path = "Minutes From Midnight";
+			sourceTree = "<group>";
+		};
+		E46BFFC119DF288400A4E1E0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E46BFFC219DF288400A4E1E0 /* Info.plist */,
+				E46BFFC319DF288400A4E1E0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E46BFFDA19DF288400A4E1E0 /* Minutes From MidnightTests */ = {
+			isa = PBXGroup;
+			children = (
+				E46BFFDD19DF288400A4E1E0 /* Minutes_From_MidnightTests.m */,
+				E46BFFDB19DF288400A4E1E0 /* Supporting Files */,
+			);
+			path = "Minutes From MidnightTests";
+			sourceTree = "<group>";
+		};
+		E46BFFDB19DF288400A4E1E0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E46BFFDC19DF288400A4E1E0 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E46BFFBD19DF288400A4E1E0 /* Minutes From Midnight */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E46BFFE119DF288400A4E1E0 /* Build configuration list for PBXNativeTarget "Minutes From Midnight" */;
+			buildPhases = (
+				E46BFFBA19DF288400A4E1E0 /* Sources */,
+				E46BFFBB19DF288400A4E1E0 /* Frameworks */,
+				E46BFFBC19DF288400A4E1E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Minutes From Midnight";
+			productName = "Minutes From Midnight";
+			productReference = E46BFFBE19DF288400A4E1E0 /* Minutes From Midnight.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E46BFFD619DF288400A4E1E0 /* Minutes From MidnightTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E46BFFE419DF288400A4E1E0 /* Build configuration list for PBXNativeTarget "Minutes From MidnightTests" */;
+			buildPhases = (
+				E46BFFD319DF288400A4E1E0 /* Sources */,
+				E46BFFD419DF288400A4E1E0 /* Frameworks */,
+				E46BFFD519DF288400A4E1E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E46BFFD919DF288400A4E1E0 /* PBXTargetDependency */,
+			);
+			name = "Minutes From MidnightTests";
+			productName = "Minutes From MidnightTests";
+			productReference = E46BFFD719DF288400A4E1E0 /* Minutes From MidnightTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E46BFFB619DF288400A4E1E0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "David Barkman";
+				TargetAttributes = {
+					E46BFFBD19DF288400A4E1E0 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					E46BFFD619DF288400A4E1E0 = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = E46BFFBD19DF288400A4E1E0;
+					};
+				};
+			};
+			buildConfigurationList = E46BFFB919DF288400A4E1E0 /* Build configuration list for PBXProject "Minutes From Midnight" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E46BFFB519DF288400A4E1E0;
+			productRefGroup = E46BFFBF19DF288400A4E1E0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E46BFFBD19DF288400A4E1E0 /* Minutes From Midnight */,
+				E46BFFD619DF288400A4E1E0 /* Minutes From MidnightTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E46BFFBC19DF288400A4E1E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E46BFFCD19DF288400A4E1E0 /* Main.storyboard in Resources */,
+				E46BFFD219DF288400A4E1E0 /* LaunchScreen.xib in Resources */,
+				E46BFFCF19DF288400A4E1E0 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E46BFFD519DF288400A4E1E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E46BFFBA19DF288400A4E1E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E46BFFCA19DF288400A4E1E0 /* ViewController.m in Sources */,
+				E46BFFC719DF288400A4E1E0 /* AppDelegate.m in Sources */,
+				E46BFFC419DF288400A4E1E0 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E46BFFD319DF288400A4E1E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E46BFFDE19DF288400A4E1E0 /* Minutes_From_MidnightTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E46BFFD919DF288400A4E1E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E46BFFBD19DF288400A4E1E0 /* Minutes From Midnight */;
+			targetProxy = E46BFFD819DF288400A4E1E0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E46BFFCB19DF288400A4E1E0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E46BFFCC19DF288400A4E1E0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E46BFFD019DF288400A4E1E0 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E46BFFD119DF288400A4E1E0 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E46BFFDF19DF288400A4E1E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E46BFFE019DF288400A4E1E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E46BFFE219DF288400A4E1E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Minutes From Midnight/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E46BFFE319DF288400A4E1E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Minutes From Midnight/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E46BFFE519DF288400A4E1E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Minutes From MidnightTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Minutes From Midnight.app/Minutes From Midnight";
+			};
+			name = Debug;
+		};
+		E46BFFE619DF288400A4E1E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Minutes From MidnightTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Minutes From Midnight.app/Minutes From Midnight";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E46BFFB919DF288400A4E1E0 /* Build configuration list for PBXProject "Minutes From Midnight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E46BFFDF19DF288400A4E1E0 /* Debug */,
+				E46BFFE019DF288400A4E1E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E46BFFE119DF288400A4E1E0 /* Build configuration list for PBXNativeTarget "Minutes From Midnight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E46BFFE219DF288400A4E1E0 /* Debug */,
+				E46BFFE319DF288400A4E1E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E46BFFE419DF288400A4E1E0 /* Build configuration list for PBXNativeTarget "Minutes From MidnightTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E46BFFE519DF288400A4E1E0 /* Debug */,
+				E46BFFE619DF288400A4E1E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E46BFFB619DF288400A4E1E0 /* Project object */;
+}
