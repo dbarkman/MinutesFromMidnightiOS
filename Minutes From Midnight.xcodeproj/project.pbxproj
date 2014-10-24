@@ -12,7 +12,6 @@
 		E46BFFCA19DF288400A4E1E0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E46BFFC919DF288400A4E1E0 /* ViewController.m */; };
 		E46BFFCD19DF288400A4E1E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E46BFFCB19DF288400A4E1E0 /* Main.storyboard */; };
 		E46BFFCF19DF288400A4E1E0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E46BFFCE19DF288400A4E1E0 /* Images.xcassets */; };
-		E46BFFD219DF288400A4E1E0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E46BFFD019DF288400A4E1E0 /* LaunchScreen.xib */; };
 		E46BFFDE19DF288400A4E1E0 /* Minutes_From_MidnightTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E46BFFDD19DF288400A4E1E0 /* Minutes_From_MidnightTests.m */; };
 /* End PBXBuildFile section */
 
@@ -36,7 +35,6 @@
 		E46BFFC919DF288400A4E1E0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		E46BFFCC19DF288400A4E1E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E46BFFCE19DF288400A4E1E0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		E46BFFD119DF288400A4E1E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		E46BFFD719DF288400A4E1E0 /* Minutes From MidnightTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Minutes From MidnightTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E46BFFDC19DF288400A4E1E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E46BFFDD19DF288400A4E1E0 /* Minutes_From_MidnightTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Minutes_From_MidnightTests.m; sourceTree = "<group>"; };
@@ -87,7 +85,6 @@
 				E46BFFC919DF288400A4E1E0 /* ViewController.m */,
 				E46BFFCB19DF288400A4E1E0 /* Main.storyboard */,
 				E46BFFCE19DF288400A4E1E0 /* Images.xcassets */,
-				E46BFFD019DF288400A4E1E0 /* LaunchScreen.xib */,
 				E46BFFC119DF288400A4E1E0 /* Supporting Files */,
 			);
 			path = "Minutes From Midnight";
@@ -200,7 +197,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				E46BFFCD19DF288400A4E1E0 /* Main.storyboard in Resources */,
-				E46BFFD219DF288400A4E1E0 /* LaunchScreen.xib in Resources */,
 				E46BFFCF19DF288400A4E1E0 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -250,14 +246,6 @@
 				E46BFFCC19DF288400A4E1E0 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		E46BFFD019DF288400A4E1E0 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E46BFFD119DF288400A4E1E0 /* Base */,
-			);
-			name = LaunchScreen.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -345,6 +333,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = "Minutes From Midnight/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -355,6 +344,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = "Minutes From Midnight/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -414,6 +404,7 @@
 				E46BFFE319DF288400A4E1E0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E46BFFE419DF288400A4E1E0 /* Build configuration list for PBXNativeTarget "Minutes From MidnightTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +413,7 @@
 				E46BFFE619DF288400A4E1E0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

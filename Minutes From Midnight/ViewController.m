@@ -8,20 +8,57 @@
 
 #import "ViewController.h"
 
-@interface ViewController ()
+@interface ViewController () {
+    int test;
+    NSDate *date;
+    NSCalendar *calendar;
+    NSDateComponents *components;
+    NSInteger hour;
+    NSInteger minute;
+    NSInteger second;
+    NSInteger minutes;
+    int subMinutes;
+}
 
 @end
 
 @implementation ViewController
 
+@synthesize clockLabel;
+
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    test = 0;
+    
+    clockLabel.frame = CGRectMake(0, 0, 800, 100);
+    
+    [self UpdateClockLabel];
+
+    [NSTimer scheduledTimerWithTimeInterval:1.0
+            target:self
+            selector:@selector(UpdateClockLabel)
+            userInfo:nil
+            repeats:YES];
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (void)UpdateClockLabel
+{
+    self.clockLabel.text = [NSString stringWithFormat:@"%i", test];
+    test++;
+    
+    date = [NSDate new];
+    calendar = [NSCalendar currentCalendar];
+    components = [calendar components:(NSCalendarUnitHour | NSCalendarUnitMinute | NSCalendarUnitSecond) fromDate:date];
+    hour = [components hour];
+    minute = [components minute];
+    second = [components second];
+    minutes = hour * 60 + minute;
+//    subMinutes = ((float)second / 60.0f);
+//    NSLog(@"%@", [NSString stringWithFormat:@"%.5f", minutes + subMinutes]);
+//    return;
+    
+    self.clockLabel.text = [NSString stringWithFormat:@"%ld:%02ld", (long)minutes, (long)second];// + subMinutes];
 }
 
 @end
